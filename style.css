@@ -1,3 +1,18 @@
 body {
-    background: blue;
+    background: grey;
+    
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: 40px;
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 15px;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
 }
