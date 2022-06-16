@@ -1,2 +1,2 @@
 # Shelby Company Limited
-   # sub tag- brough to you by the Shelby brothers.
+   # sub tag- Established in Birmingham, England in 1918.
