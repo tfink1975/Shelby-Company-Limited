@@ -20,13 +20,17 @@ h2 {
 }
 
 .Security {
-   display: flex;
+   display: inline-block;
    justify-content: center;
    margin-top: 20px;
 }
-
+.shipping {
+    display: inline-block;
+   justify-content: left;
+  
+}
 .topnav {
-    background-color: dimgray;
+    background-color: black;
     overflow: hidden;
     
 }
