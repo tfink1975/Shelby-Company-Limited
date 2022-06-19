@@ -1,9 +1,9 @@
 body {
-    background: brown;
+    background: grey;
     
 }
 
-h1 {
+h3 {
     text-decoration: underline;
     font-size: 40px;
     text-align: center;
@@ -14,43 +14,81 @@ p {
     text-align: center;
     font-size: 15px;
 }
-h2 {
-    font-size: 12px;
-    text-align: center;
-}
 
-.Security {
-   display: inline-block;
-   justify-content: center;
-   margin-top: 20px;
-}
-.shipping {
-    display: inline-block;
-   justify-content: left;
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
   
-}
-.topnav {
-    background-color: black;
-    overflow: hidden;
-    
-}
-.topnav a {
-    float: left;
-    display: block;
-    color: blue;
-    text-align: center;
-    font-size: 24px;
-    padding: 16px 14px;
-}
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-.topnav a.active {
-    background-color: #040404;
-    color: white;
-}
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  .Header {
+    background-image: url(https://static.wikia.nocookie.net/peaky-blinders/images/8/81/Shelby_Company_Limited.jpg/revision/latest?cb=20220202190243);
+    position: relative;
+   
+    background-position: center;
+    background-size: 25%;
+    height: 200px;
 
-.topnav .icon {
-    display: none;
-}
+  }
+  .bgimg-1 {
+    background-image: url("https://www.eldoradoinsurance.com/wp-content/uploads/2018/09/Top-Qualities-of-an-Excellent-Private-Security-Guard.jpg");
+    min-height: 50%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("https://cometdelivery.com/assets/img/international.jpg");
+    min-height: 50%;
+  }
+  
+  .bgimg-3 {
+    background-image: url("https://media.istockphoto.com/photos/cyber-security-it-engineer-working-on-protecting-network-against-picture-id1322517295?b=1&k=20&m=1322517295&s=170667a&w=0&h=x4Kmx8fQytr6VPfuKwE381xf-rfiBFctyXvpb7o5ju8=");
+    min-height: 400px;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: grey;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-decoration: underline;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+  h1 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    
+  }
+  h4 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
